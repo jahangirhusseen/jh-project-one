@@ -15,4 +15,49 @@
    font-weight: 400;
   font-style: normal;
 }
+/* Color */
+.primary{
+    color: #4E47FF;
+}
+.white{
+    color:#fff;
+}
+.header{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* background: red; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo{
+    font-family: "Inter", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #4E47FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.primary-btn{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background: #4E47FF;
+    color: #fff;
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.primary-btn:hover{
+    background-color: yellow;
+    color: #000;
+     transform: scale(1.1);
+     border-radius: 5px;
+
+}
