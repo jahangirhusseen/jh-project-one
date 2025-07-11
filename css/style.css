@@ -93,3 +93,32 @@ body{
     font-weight: bold;
     color:#252432;
 }
+
+
+/* action-section */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.action-content{
+    max-width: 517px;
+}
+.action-content-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color:#252432;
+}
+.action-content-discription{
+    color: #25243250;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    margin: 23px 0px;
+    line-height: 30px;
+}
+.action-img-content img{
+    max-width: 403px;
+    border-radius: 48px;
+}
